@@ -1,0 +1,95 @@
+h1 {
+	text-align: center;
+	font-style: italic;
+	}
+body {
+	}
+table, td, th {
+		border: 1px solid black;
+		}
+th {
+	color: black;
+	}
+td {
+	}
+#mainbox {
+	border-width: 0.3em;
+	padding: 2em;
+	margin-top: 3em;
+	margin-left: 1.5em;
+	margin-right: 1.5em;
+	font-family: georgia;
+	border-radius: 10px;
+	}
+#right {
+	float: right;
+	padding: 1em;
+	}
+#infobox {
+	border-width: 0.3em;
+	margin-top: 3em;
+	font-family: arial;
+	}
+#information {
+	text-align: left;
+	}
+#location {
+	text-align: left;
+	}
+/*BELOW TO BE CHANGED*/
+#history {
+	text-align: left;
+	}
+/*ABOVE TO BE CHANGED*/
+/*BELOW TO BE CHANGED*/
+#picture {
+	text-align: left;
+	}
+/*ABOVE TO BE CHANGED*/
+/*BELOW TO BE CHANGED*/
+#figure {
+	display: block;
+	float: right;
+	}
+/*ABOVE TO BE CHANGED*/
+#mainnav_1 li {
+	display: inline;
+	list-style-type: none;
+	position: relative;
+	top: -10em;
+	left: 80em;
+	padding-right: 2em;
+	}
+#search {
+	float: right;
+	margin-top: -10em;
+	margin-right: 5em;
+	padding-left: 1em;
+	}
+#mainnav_2 li {
+	display: inline;
+	margin-top: -1em;
+	margin-left: 5em;
+	list-style-type: none;
+	position: relative;
+	float: left;
+	color: black;
+	}
+#mainnav_3 li {
+	display: inline;
+	margin-top: -1em;
+	margin-right: 0em;
+	padding-right: 5em;
+	list-style-type: none;
+	position: relative;
+	float: right;
+	}
+#map-canvas {
+	width: 500px;
+	height: 400px;
+	}
+#image {
+	float: right;
+	margin-left: 1em;
+	}
+</style>
