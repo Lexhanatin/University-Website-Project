@@ -1,0 +1,85 @@
+<!DOCTYPE HTLM>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<script src="https://maps.googleapis.com/maps/api/js"></script>
+		<script src="scripts/markerScript.js"></script>
+		<script src="scripts/form2.js"></script>
+	</head>
+		<a id="right" href="#skip">Skip</a>
+		<title>Healers - Capalaba Medical Centre</title>
+		<link rel="stylesheet" type="text/css" media="screen" href="services.css" />
+		<link rel="stylesheet" type="text/css" media="print" href="servicesprint.css" />
+		<link rel="shortcut icon" href="images/favicon.ico" />
+	<body id="body">
+		<a name="top"></a>
+		<figure>
+			<a href="index.html">
+				<img src="images/logo.gif" width="302" height="320" alt="Logo" />
+			</a> 
+		</figure>
+		<nav>
+			<div id="search">
+				<form>
+					<input type="search" name="search" size="30">
+					<input type="submit" name="search">
+				</form>
+			</div>
+			<ul id="mainnav_2">
+				<li><a href="news.html">News</a></li>
+				<li><a href="services.html">Service Bookings</a></li>
+				<li><a href="about.html">About Us</a></li>
+			</ul>	
+		</nav>
+		<div id="mainbox">
+			<a name="skip"></a>
+			<h1>Service Booking</h1>
+					<h2>Services</h2>
+					<select>
+						<option value="Surgery">Surgery</option>
+						<option value="X-ray">X-ray</option>
+						<option value="Bloods">Bloods</option>
+						<option value="CAT Scan">CAT Scan</option>
+						<option value="Echo-cardiography">Echo-cardiography</option>
+					</select>
+					<h2>Date and Time</h2>
+					<form action="demo_form.asp">
+						<label for="dateinput">
+						<span class="req"></span>Date:
+						<input type="date" id="dateinput" name="date"><br>
+						</label>
+						<label for="timeinput">
+						<span class="req"></span>Time:
+						<input type="time" id="timeinput" name="time"><br>
+						</label>
+					</form>
+				<div>
+				<h2>Contact Details</h2>
+				<form action="demo_form.asp">
+					<label for="fnameinput">
+					<span class="req"></span>First name:
+					<input type="text" id="fnameinput" name="fname"><br>
+					</label>
+					<label for="lnameinput">
+					<span class="req"></span>Last name:
+					<input type="text" id="lnameinput" name="lname"><br>
+					</label>
+					<label for="lnameinput">
+					<span class="req"></span>Phone Number:
+					<input type="text" id="pnumberinput" name="pnumber"><br>
+					</label>
+					Mobile Number: <input type="text" name="number"><br>
+					<label for="emailinput">
+					<span class="req"></span>Email Address:
+					<input type="email" id="emailinput" name="email" size="40"><br>
+					</label>
+					<fieldset id="submitbutton">
+						<input type="button" id="submit" value="Submit" onclick='checkReqFields()'/>
+					</fieldset>
+				</form>
+				<p id="message"></p>
+				</div>
+		</div>
+		<a id="right" href="#top">Back to Top</a>
+	</body>
+</html>
