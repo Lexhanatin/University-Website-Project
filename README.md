@@ -6,5 +6,3 @@ This is a test repository.
 Things to Do
 I need to sort out which scripts are correct.
 I made different versions for testing etc and never got around to deleting them due to time constraints.
-
-[![NodeCG Logo] http://i.imgur.com/8PjMIL4.png)] http://nodecg.com/)
